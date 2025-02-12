@@ -1,10 +1,11 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import KeypadButton from './KeypadButton';
 
 const CalcKeyPadStandard = () => {
     return (
         <View>
-            <Text>CalcKeyPadStandard</Text>
+            <KeypadButton btnText={'CalcKeyPadStandard Button'} />
         </View>
     )
 }

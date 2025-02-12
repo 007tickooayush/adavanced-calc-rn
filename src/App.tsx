@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, Text, View } from 'react-native';
 import { styles } from '../style/styles';
-
+import CalcKeyPadContainer from './keypad/CalcKeyPadContainer';
 
 const App = () => {
 	return (
@@ -15,6 +15,7 @@ const App = () => {
 					<Text>Handling Display using Footer Container</Text>
 				</View>
 				<View style={[styles.body]}>
+					<CalcKeyPadContainer />
 					<Text>Handling Calculator Keypad using Body Container</Text>
 				</View>
 			</View>
