@@ -9,13 +9,13 @@ const App = () => {
 			<StatusBar style='auto' />
 			<View style={[styles.rootLayout]}>
 				<View style={[styles.header]}>
-					<Text>Header Container of the View</Text>
-				</View>
-				<View style={[styles.body]}>
-					<Text>Body Container of the View</Text>
+					<Text>Handling Tabs using Header Container</Text>
 				</View>
 				<View style={[styles.footer]}>
-					<Text>Footer Container of the View</Text>
+					<Text>Handling Display using Footer Container</Text>
+				</View>
+				<View style={[styles.body]}>
+					<Text>Handling Calculator Keypad using Body Container</Text>
 				</View>
 			</View>
 		</SafeAreaView>
