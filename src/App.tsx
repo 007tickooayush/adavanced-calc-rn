@@ -4,6 +4,10 @@ import { styles } from '../style/styles';
 import CalcKeyPadContainer from './keypad/CalcKeyPadContainer';
 
 const App = () => {
+
+	// TODO: handle the tabs and new tab options
+	// also implement the handling of the state for multiple tabs
+
 	return (
 		<SafeAreaView style={styles.container}>
 			<StatusBar style='auto' />

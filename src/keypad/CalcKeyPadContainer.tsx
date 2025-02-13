@@ -7,6 +7,9 @@ import CalcKeyPadScientific from './CalcKeyPadScientific';
 
 const CalcKeyPadContainer = () => {
     const [calcKeypadType, setCalcKeypadType] = useState<CalculatorType>('standard');
+    
+    // define the standard keybpard layout first, and handle the arithmetic operations 
+
     return (
         <View>
             <CalcTypeContext.Provider value={{ calcKeyTypeContxt: calcKeypadType, setCalcKeyTypeContxt: setCalcKeypadType }}>
