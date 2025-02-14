@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
         paddingTop: Constants.statusBarHeight,
         backgroundColor: '#fff',
         width: '100%',
-        height: '100%',  
+        height: '100%',
     },
     container: {
         alignItems: 'center',
@@ -39,8 +39,8 @@ export const styles = StyleSheet.create({
         // backgroundColor: 'red'
     },
     keypadBtn: {
-        width: 200,
-        height: 100,
+        width: 100,
+        height: 50,
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#5E4955',
@@ -50,15 +50,32 @@ export const styles = StyleSheet.create({
         // boxShadow: '4 4 4 4 #221D23',
         margin: 2,
         // color: '#000000'
+        textAlign: 'center',
     },
     keypadTxt: {
         color: '#FFFFFF',
     },
 
-    standardKeypadContainer: {
+    standardKeypadRootContainer: {
+        display: 'flex',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        // justifyContent: 'center',
+    },
+
+    standardKeypadNumContainer: {
         display: 'flex',
         flexDirection: 'row',
         flexWrap: 'wrap',
         justifyContent: 'center',
+        width: '70%',
+    },
+
+    standardKeypadOpsContainer: {
+        display: 'flex',
+        flexDirection: 'column',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        width: '30%',
     }
 });
